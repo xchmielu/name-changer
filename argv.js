@@ -10,7 +10,7 @@ function argv(arg) {
     }
 }
 
-function validateArgs(args) {
+function validateArgs(args ) {
     var validate = false
 
     args.forEach(function(args) {

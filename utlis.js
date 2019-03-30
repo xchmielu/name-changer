@@ -12,7 +12,7 @@ function sortByDate(files, dir) {
     return files
 }
 
-function newFileName(format, ext, index) {
+function newFileName(format, ext, index ) {
     var formatted = format.replace(/(\$+)/, function(match) {
 
         var diff = match.length - String(index).length

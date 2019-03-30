@@ -15,7 +15,7 @@ fs.readdir(dir, (err, files) => {
         throw err
     }
     
-    var validFiles = files.filter((files)=> {
+    var validFiles = files.filter((files )=> {
         return path.extname(files).slice(1) === argv.get('ext')
     })    
     console.log(validFiles)
